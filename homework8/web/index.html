@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="height: 100%;overflow:hidden;">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>登录页面</title>
+        <style>
+            .block{
+                text-align:center;
+            }
+            .block:before{
+                content:'';
+                display:inline-block;
+                height:40%;
+                vertical-align: middle;
+                margin-right: -0.25em;
+                
+            }
+            .centered{
+                display: inline-block;
+                vertical-align: middle;
+                width:  50%;
+            }
+        </style>
+    </head>
+    <body bgcolor="#CFCFCF" style="height: 100%">
+        <div style="height: 100%">
+            <div style="height: 30%;"></div>
+            <div class="block">
+                <form method="post" action="loginCheck">
+                    <div style="height: 100%; width: 100%" >
+                        <div style="height: 100%">
+                            <table border="2" align="center">
+                                <tr bgcolor="#CFCFCF">
+                                    <td width="50%">
+                                        <div align="center">
+                                            昵称：
+                                        </div>
+                                    </td>
+                                    <td width="50%">
+                                        <div align="center">
+                                            <input type="text" name="nickname" value=""/>
+                                        </div> 
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div align="center">
+                            <input type="submit" value="进入聊天室" style="width: 313px"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div style="height: 30%;"></div>
+        </div>
+    </body>
+</html>
